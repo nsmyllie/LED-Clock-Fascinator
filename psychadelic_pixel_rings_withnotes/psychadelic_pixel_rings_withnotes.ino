@@ -1,6 +1,6 @@
 #include "lightStructs.h"
 #include <Adafruit_NeoPixel.h>
-
+//testing
 const int nLEDs = 36;
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(nLEDs, 9, NEO_GRB + NEO_KHZ800);
 unsigned long interval = 1000;
